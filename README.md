@@ -1,1 +1,0 @@
-# MicrosoftReady19_ServerlessWorkshop
