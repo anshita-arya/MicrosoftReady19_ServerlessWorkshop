@@ -1,0 +1,15 @@
+{
+  "id": "1",
+  "CustomerName": "Anshita",
+  "CustomerContactNumber": 9830098300,
+  "BaristaId": "LV001",
+  "Branch": "MGM",
+  "OrderItems": [
+    {
+      "ItemName": "Frappuccino",
+      "ItemType": "Beverage",
+      "Quantity": 1,
+      "Personalisations": ""
+    }
+  ]
+}

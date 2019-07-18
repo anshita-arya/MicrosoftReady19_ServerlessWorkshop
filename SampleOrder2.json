@@ -1,8 +1,8 @@
 {
-  "id": "1",
-  "CustomerName": "Anshita",
-  "CustomerContactNumber": 9830098300,
-  "BaristaId": "LV001",
+  "id": "2",
+  "CustomerName": "Sofia",
+  "CustomerContactNumber": 9830198301,
+  "BaristaId": "LV002",
   "Branch": "MGM",
   "OrderItems": [
     {
@@ -20,7 +20,8 @@
     {
       "ItemName": "Mug",
       "ItemType": "Merchandise",
-      "Quantity": 1
+      "Quantity": 1,
+      "Personalisations": "white"
     }
   ]
 }

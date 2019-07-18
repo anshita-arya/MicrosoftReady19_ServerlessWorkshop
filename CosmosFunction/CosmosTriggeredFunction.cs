@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace CosmosFunction
 {
-    public static class Function1
+    public static class CosmosTriggeredFunction
     {
         [FunctionName("CosmosAuditFunction")]
         public static async System.Threading.Tasks.Task RunAsync([CosmosDBTrigger(
@@ -32,11 +32,11 @@ namespace CosmosFunction
                 {
                     var aegEvent = new
                     {
-                        Id = 1,
+                        Id = Guid.NewGuid(),
                         Subject = item.ItemName,
                         EventType = item.ItemType.ToString(),
                         EventTime = DateTime.UtcNow,
-                        Data = "new order item received"
+                        Data = "Order item details :" + item.Quantity +"|"+ item.ItemName + "|" + item.Personalisations
                     };
                     var response = await client.PostAsJsonAsync("", new[] { aegEvent });
                 }
