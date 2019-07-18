@@ -1,0 +1,26 @@
+{
+  "id": "1",
+  "CustomerName": "Anshita",
+  "CustomerContactNumber": 9830098300,
+  "BaristaId": "LV001",
+  "Branch": "MGM",
+  "OrderItems": [
+    {
+      "ItemName": "Mocha",
+      "ItemType": "Beverage",
+      "Quantity": 1,
+      "Personalisations": "no sugar"
+    },
+    {
+      "ItemName": "Donut",
+      "ItemType": "Food",
+      "Quantity": 1,
+      "Personalisations": ""
+    },
+    {
+      "ItemName": "Mug",
+      "ItemType": "Merchandise",
+      "Quantity": 1
+    }
+  ]
+}
